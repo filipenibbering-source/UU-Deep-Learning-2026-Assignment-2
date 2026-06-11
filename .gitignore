@@ -1,0 +1,11 @@
+logs/
+lightning_logs/
+data/Cross/
+data/Intra/
+
+src/__pychache__/
+__pycache__/
+**/__pycache__/
+__pycache__
+
+.DS_Store

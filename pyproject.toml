@@ -1,0 +1,25 @@
+[project]
+name = "uu-deep-learning-2026-assignment-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "h5py>=3.16.0",
+    "ipykernel>=7.2.0",
+    "lightning>=2.6.1",
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.4",
+    "rich>=15.0.0",
+    "scikit-learn>=1.8.0",
+    "tensorboard>=2.20.0",
+    "tensorboardx>=2.6.5",
+    "torch>=2.11.0",
+    "tqdm>=4.67.3",
+    "types-tqdm>=4.67.3.20260508",
+]
+
+
+[tool.pyrefly]
+# disable-search-path-heuristics = true
+search-path = ["."]
