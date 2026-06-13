@@ -1,0 +1,50 @@
+data_root: "Final Project data/Final Project data"
+
+split:
+  protocol: intra
+  train_chunks: [1, 2, 3, 4, 5, 6]
+  val_chunks: [7, 8]
+
+data:
+  sample_rate: 2034.0
+  downsample_factor: 8
+  window_seconds: 2.0
+  stride_seconds: 1.0
+  normalization: zscore
+  clip_value: 6.0
+  cache_size: 64
+
+model:
+  name: eegnet
+  params:
+    temporal_filters: 16
+    depth_multiplier: 2
+    separable_filters: 32
+    temporal_kernel: 63
+    separable_kernel: 15
+    pool1: 4
+    pool2: 8
+    dropout: 0.25
+
+training:
+  seed: 42
+  batch_size: 16
+  max_epochs: 50
+  patience: 8
+  lr_patience: 3
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  amp: true
+  num_workers: 0
+  device: auto
+
+sweep:
+  learning_rates: [0.0003]
+  weight_decays: [0.0001]
+  dropouts: [0.25]
+  data:
+    window_seconds: [1.0, 2.0, 3.0]
+  model_params:
+    temporal_filters: [16, 32]
+    separable_filters: [32, 64]
+  rerun_best_seeds: []

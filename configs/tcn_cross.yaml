@@ -1,0 +1,48 @@
+data_root: "Final Project data/Final Project data"
+
+split:
+  protocol: cross
+  val_subject:
+  final_train: false
+  eval_splits: [test1, test2, test3]
+
+data:
+  sample_rate: 2034.0
+  downsample_factor: 8
+  window_seconds: 2.0
+  stride_seconds: 1.0
+  normalization: zscore
+  clip_value: 6.0
+  cache_size: 64
+
+model:
+  name: eegnet_tcn
+  params:
+    temporal_filters: 16
+    depth_multiplier: 2
+    separable_filters: 32
+    temporal_kernel: 63
+    separable_kernel: 15
+    pool1: 4
+    pool2: 4
+    dropout: 0.25
+    tcn_dilations: [1, 2, 4]
+
+training:
+  seed: 42
+  batch_size: 16
+  max_epochs: 100
+  patience: 15
+  lr_patience: 5
+  learning_rate: 0.001
+  weight_decay: 0.001
+  amp: true
+  num_workers: 0
+  device: auto
+
+sweep:
+  learning_rates: [0.001, 0.0003]
+  weight_decays: [0.0001, 0.001]
+  dropouts: [0.25, 0.5]
+  cross_folds: all
+  rerun_best_seeds: [0, 1, 2]

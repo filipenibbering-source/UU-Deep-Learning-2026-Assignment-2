@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.pt
+*.pth
+*.ckpt
+Final Project data/
+
+# Keep generated model artifacts out of git, but allow the small summary files
+# that explain the experiment results.
+outputs/runs/
+outputs/sweeps/
+outputs/**/*.pt
+outputs/**/*.pth
+outputs/**/*.ckpt
+outputs/**/*.png
