@@ -10,10 +10,8 @@ venv/
 *.ckpt
 Final Project data/
 
-# Keep generated model artifacts out of git, but allow the small summary files
-# that explain the experiment results.
-outputs/runs/
-outputs/sweeps/
+# Keep generated model artifacts out of git, but allow result tables and
+# metadata so others can inspect runs and make plots.
 outputs/**/*.pt
 outputs/**/*.pth
 outputs/**/*.ckpt

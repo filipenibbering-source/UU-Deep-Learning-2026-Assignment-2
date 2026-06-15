@@ -1,0 +1,2 @@
+epoch,train_loss,train_accuracy,val_window_accuracy,val_window_balanced_accuracy,val_window_macro_f1,val_window_macro_precision,val_window_macro_recall,val_file_accuracy,val_file_balanced_accuracy,val_file_macro_f1,val_file_macro_precision,val_file_macro_recall,learning_rate
+1,1.489013671875,0.125,0.25,0.25,0.1,0.0625,0.25,0.25,0.25,0.1,0.0625,0.25,0.001

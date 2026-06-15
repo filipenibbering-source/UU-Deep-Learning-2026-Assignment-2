@@ -1,0 +1,4 @@
+run_name,seed,val_subject,val_accuracy,val_balanced_accuracy,val_macro_f1
+best_seed0,0,,0.75,0.75,0.65
+best_seed1,1,,0.75,0.75,0.6666666666666666
+best_seed2,2,,0.75,0.75,0.6666666666666666

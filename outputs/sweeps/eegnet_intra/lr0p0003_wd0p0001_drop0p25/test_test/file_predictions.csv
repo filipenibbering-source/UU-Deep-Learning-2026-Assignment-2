@@ -1,0 +1,9 @@
+path,protocol,split,subject,chunk,task,true_label,true_class,pred_label,pred_class,n_windows,prob_rest,prob_math_story,prob_working_memory,prob_motor
+Final Project data\Final Project data\Intra\test\rest_105923_9.h5,Intra,test,105923,9,rest,0,rest,0,rest,16,0.3586006760597229,0.22999918460845947,0.2068997174501419,0.20450040698051453
+Final Project data\Final Project data\Intra\test\rest_105923_10.h5,Intra,test,105923,10,rest,0,rest,0,rest,16,0.3324342668056488,0.24021859467029572,0.2089800089597702,0.21836715936660767
+Final Project data\Final Project data\Intra\test\task_motor_105923_9.h5,Intra,test,105923,9,task_motor,3,motor,3,motor,16,0.18051373958587646,0.2567635774612427,0.27232858538627625,0.290394127368927
+Final Project data\Final Project data\Intra\test\task_motor_105923_10.h5,Intra,test,105923,10,task_motor,3,motor,2,working_memory,16,0.17241494357585907,0.21374422311782837,0.32136833667755127,0.2924725115299225
+Final Project data\Final Project data\Intra\test\task_story_math_105923_9.h5,Intra,test,105923,9,task_story_math,1,math_story,1,math_story,16,0.24202173948287964,0.2757868468761444,0.2356642335653305,0.24652713537216187
+Final Project data\Final Project data\Intra\test\task_story_math_105923_10.h5,Intra,test,105923,10,task_story_math,1,math_story,1,math_story,16,0.24131762981414795,0.2816471755504608,0.24270164966583252,0.23433353006839752
+Final Project data\Final Project data\Intra\test\task_working_memory_105923_9.h5,Intra,test,105923,9,task_working_memory,2,working_memory,1,math_story,16,0.23860082030296326,0.2911451756954193,0.22417232394218445,0.24608170986175537
+Final Project data\Final Project data\Intra\test\task_working_memory_105923_10.h5,Intra,test,105923,10,task_working_memory,2,working_memory,1,math_story,16,0.23539532721042633,0.29398900270462036,0.2364637851715088,0.2341518998146057

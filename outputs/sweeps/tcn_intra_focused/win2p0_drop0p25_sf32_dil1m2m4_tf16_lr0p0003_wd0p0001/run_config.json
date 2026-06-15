@@ -1,0 +1,95 @@
+{
+  "config": {
+    "data": {
+      "cache_size": 64,
+      "clip_value": 6.0,
+      "downsample_factor": 8,
+      "normalization": "zscore",
+      "sample_rate": 2034.0,
+      "stride_seconds": 1.0,
+      "window_seconds": 2.0
+    },
+    "data_root": "Final Project data/Final Project data",
+    "model": {
+      "name": "eegnet_tcn",
+      "params": {
+        "depth_multiplier": 2,
+        "dropout": 0.25,
+        "pool1": 4,
+        "pool2": 4,
+        "separable_filters": 32,
+        "separable_kernel": 15,
+        "tcn_dilations": [
+          1,
+          2,
+          4
+        ],
+        "temporal_filters": 16,
+        "temporal_kernel": 63
+      }
+    },
+    "split": {
+      "protocol": "intra",
+      "train_chunks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "val_chunks": [
+        7,
+        8
+      ]
+    },
+    "training": {
+      "amp": true,
+      "batch_size": 16,
+      "device": "auto",
+      "learning_rate": 0.0003,
+      "lr_patience": 3,
+      "max_epochs": 50,
+      "num_workers": 0,
+      "patience": 8,
+      "seed": 42,
+      "weight_decay": 0.0001
+    }
+  },
+  "metadata": {
+    "class_names": [
+      "rest",
+      "math_story",
+      "working_memory",
+      "motor"
+    ],
+    "data_config": {
+      "cache_size": 64,
+      "clip_value": 6.0,
+      "downsample_factor": 8,
+      "normalization": "zscore",
+      "sample_rate": 2034.0,
+      "stride_seconds": 1.0,
+      "window_seconds": 2.0
+    },
+    "device": "cuda",
+    "model_parameters": 29556,
+    "seed": 42,
+    "split": {
+      "protocol": "intra",
+      "test_split": "Intra/test",
+      "train_chunks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "val_chunks": [
+        7,
+        8
+      ]
+    }
+  }
+}

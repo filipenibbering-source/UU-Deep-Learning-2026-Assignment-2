@@ -1,0 +1,17 @@
+path,protocol,split,subject,chunk,task,true_label,true_class,pred_label,pred_class,n_windows,prob_rest,prob_math_story,prob_working_memory,prob_motor
+Final Project data\Final Project data\Cross\test1\rest_162935_1.h5,Cross,test1,162935,1,rest,0,rest,3,motor,17,0.2399965524673462,0.2181445062160492,0.03091626986861229,0.5109427571296692
+Final Project data\Final Project data\Cross\test1\rest_162935_3.h5,Cross,test1,162935,3,rest,0,rest,3,motor,17,0.23999662697315216,0.21814483404159546,0.03091634437441826,0.5109421014785767
+Final Project data\Final Project data\Cross\test1\rest_162935_5.h5,Cross,test1,162935,5,rest,0,rest,3,motor,17,0.23999643325805664,0.21814459562301636,0.030916308984160423,0.5109426379203796
+Final Project data\Final Project data\Cross\test1\rest_162935_10.h5,Cross,test1,162935,10,rest,0,rest,3,motor,17,0.23999671638011932,0.21814486384391785,0.030916308984160423,0.5109421014785767
+Final Project data\Final Project data\Cross\test1\task_motor_162935_1.h5,Cross,test1,162935,1,task_motor,3,motor,3,motor,17,0.23999637365341187,0.21814469993114471,0.030916297808289528,0.5109426975250244
+Final Project data\Final Project data\Cross\test1\task_motor_162935_3.h5,Cross,test1,162935,3,task_motor,3,motor,3,motor,17,0.23999649286270142,0.21814444661140442,0.030916262418031693,0.510942816734314
+Final Project data\Final Project data\Cross\test1\task_motor_162935_4.h5,Cross,test1,162935,4,task_motor,3,motor,3,motor,17,0.2399965226650238,0.2181447148323059,0.030916305258870125,0.5109425187110901
+Final Project data\Final Project data\Cross\test1\task_motor_162935_9.h5,Cross,test1,162935,9,task_motor,3,motor,3,motor,17,0.23999620974063873,0.2181442230939865,0.030916301533579826,0.5109432935714722
+Final Project data\Final Project data\Cross\test1\task_story_math_162935_2.h5,Cross,test1,162935,2,task_story_math,1,math_story,3,motor,17,0.23999612033367157,0.21814414858818054,0.030916273593902588,0.5109434723854065
+Final Project data\Final Project data\Cross\test1\task_story_math_162935_3.h5,Cross,test1,162935,3,task_story_math,1,math_story,3,motor,17,0.23999634385108948,0.2181447446346283,0.030916329473257065,0.5109425783157349
+Final Project data\Final Project data\Cross\test1\task_story_math_162935_4.h5,Cross,test1,162935,4,task_story_math,1,math_story,3,motor,17,0.2399963140487671,0.21814429759979248,0.030916256830096245,0.5109431743621826
+Final Project data\Final Project data\Cross\test1\task_story_math_162935_6.h5,Cross,test1,162935,6,task_story_math,1,math_story,3,motor,17,0.2399962991476059,0.2181447595357895,0.030916312709450722,0.5109426975250244
+Final Project data\Final Project data\Cross\test1\task_working_memory_162935_3.h5,Cross,test1,162935,3,task_working_memory,2,working_memory,3,motor,17,0.2399970442056656,0.21814119815826416,0.03091559000313282,0.5109460949897766
+Final Project data\Final Project data\Cross\test1\task_working_memory_162935_4.h5,Cross,test1,162935,4,task_working_memory,2,working_memory,3,motor,17,0.23999671638011932,0.21814538538455963,0.030916428193449974,0.5109415054321289
+Final Project data\Final Project data\Cross\test1\task_working_memory_162935_5.h5,Cross,test1,162935,5,task_working_memory,2,working_memory,3,motor,17,0.23999659717082977,0.21814469993114471,0.030916256830096245,0.5109423995018005
+Final Project data\Final Project data\Cross\test1\task_working_memory_162935_7.h5,Cross,test1,162935,7,task_working_memory,2,working_memory,3,motor,17,0.2399972528219223,0.218144953250885,0.03091621771454811,0.5109416246414185

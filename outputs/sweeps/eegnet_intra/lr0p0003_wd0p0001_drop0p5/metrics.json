@@ -1,0 +1,278 @@
+{
+  "best_epoch": 28,
+  "best_score": 0.75,
+  "metadata": {
+    "class_names": [
+      "rest",
+      "math_story",
+      "working_memory",
+      "motor"
+    ],
+    "data_config": {
+      "cache_size": 64,
+      "clip_value": 6.0,
+      "downsample_factor": 8,
+      "normalization": "zscore",
+      "sample_rate": 2034.0,
+      "stride_seconds": 1.0,
+      "window_seconds": 2.0
+    },
+    "device": "cuda",
+    "model_parameters": 10740,
+    "seed": 42,
+    "split": {
+      "protocol": "intra",
+      "test_split": "Intra/test",
+      "train_chunks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "val_chunks": [
+        7,
+        8
+      ]
+    }
+  },
+  "tests": {
+    "test": {
+      "file": {
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.75,
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "macro_f1": 0.6666666666666666,
+        "macro_precision": 0.625,
+        "macro_recall": 0.75,
+        "per_class_f1": [
+          1.0,
+          0.6666666666666666,
+          0.0,
+          1.0
+        ],
+        "per_class_precision": [
+          1.0,
+          0.5,
+          0.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        "per_class_support": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "support": 8
+      },
+      "window": {
+        "accuracy": 0.390625,
+        "balanced_accuracy": 0.390625,
+        "confusion_matrix": [
+          [
+            18,
+            0,
+            9,
+            5
+          ],
+          [
+            9,
+            19,
+            2,
+            2
+          ],
+          [
+            5,
+            21,
+            1,
+            5
+          ],
+          [
+            11,
+            7,
+            2,
+            12
+          ]
+        ],
+        "macro_f1": 0.35826558691721044,
+        "macro_precision": 0.3485721354350746,
+        "macro_recall": 0.390625,
+        "per_class_f1": [
+          0.48,
+          0.48101265822784806,
+          0.043478260869565216,
+          0.42857142857142855
+        ],
+        "per_class_precision": [
+          0.4186046511627907,
+          0.40425531914893614,
+          0.07142857142857142,
+          0.5
+        ],
+        "per_class_recall": [
+          0.5625,
+          0.59375,
+          0.03125,
+          0.375
+        ],
+        "per_class_support": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "support": 128
+      }
+    }
+  },
+  "validation": {
+    "file": {
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.75,
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "macro_f1": 0.6666666666666666,
+      "macro_precision": 0.625,
+      "macro_recall": 0.75,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        0.0,
+        0.6666666666666666
+      ],
+      "per_class_precision": [
+        1.0,
+        1.0,
+        0.0,
+        0.5
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "per_class_support": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "support": 8
+    },
+    "window": {
+      "accuracy": 0.4921875,
+      "balanced_accuracy": 0.4921875,
+      "confusion_matrix": [
+        [
+          18,
+          9,
+          5,
+          0
+        ],
+        [
+          8,
+          21,
+          1,
+          2
+        ],
+        [
+          7,
+          11,
+          2,
+          12
+        ],
+        [
+          7,
+          3,
+          0,
+          22
+        ]
+      ],
+      "macro_f1": 0.4499226006191951,
+      "macro_precision": 0.4470959595959596,
+      "macro_recall": 0.4921875,
+      "per_class_f1": [
+        0.5,
+        0.5526315789473685,
+        0.1,
+        0.6470588235294118
+      ],
+      "per_class_precision": [
+        0.45,
+        0.4772727272727273,
+        0.25,
+        0.6111111111111112
+      ],
+      "per_class_recall": [
+        0.5625,
+        0.65625,
+        0.0625,
+        0.6875
+      ],
+      "per_class_support": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "support": 128
+    }
+  }
+}
