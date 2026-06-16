@@ -9,3 +9,10 @@ __pycache__/
 __pycache__
 
 .DS_Store
+
+*.pt
+*.yaml
+*.log
+logs/
+logs_parallel/
+logs_wrong_caching/
