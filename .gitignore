@@ -16,3 +16,4 @@ __pycache__
 logs/
 logs_parallel/
 logs_wrong_caching/
+checkpoints/

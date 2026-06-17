@@ -27,8 +27,8 @@ class Config:
     # accelerator: str = 'cpu'
     accelerator: str = 'gpu'
     log_every_n_steps: int = 1
-    precision = "16-mixed"
-    # precision = "32-true"
+    # precision = "16-mixed"
+    precision = "32-true"
 
     # callbacks
     early_stopping_patience: int = 5
@@ -47,6 +47,9 @@ class Config:
     ### MODELS ###
     
     ## CNN ##
+    
+    model: Literal['lstm', 'resnet18', 'resnet50', 'eegnet'] = 'lstm'
+    is_baseline: bool = False
     
     # num_features: int = 248
     base_channels: int = 128
